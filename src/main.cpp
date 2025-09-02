@@ -15,11 +15,13 @@ void loop() {
   Serial.println();
   delay(100);
 
-  if (maLectureAnalogique > 4095 / 2) {
+  /*if (maLectureAnalogique > 4095 / 2) {
     pixelAtom = CRGB(242,165,56);
     FastLED.show();
   } else {
     pixelAtom = CRGB(0,0,0);
     FastLED.show();
-  }
+  }*/
+
+  
 }

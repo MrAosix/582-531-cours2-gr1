@@ -23,5 +23,8 @@ void loop() {
     FastLED.show();
   }*/
 
-  
+  int valeurRouge = maLectureAnalogique * 255 / 4095;
+  pixelAtom = CRGB(valeurRouge,0,0);
+  FastLED.show();
+
 }
